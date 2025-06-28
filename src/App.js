@@ -58,7 +58,7 @@ function App() {
         }));
       }
     }
-  }, [formData.openning, formData.closing, formData.transfer]);
+  }, [formData.openning, formData.closing, formData.transfer, formData.threshold]);
 
   return (
     <div className="App">
