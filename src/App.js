@@ -95,23 +95,23 @@ function App() {
               <h4 className="w-100 border-bottom border-dark pb-2"><span className='fw-light'>Constituency: </span>{formData.constituency}</h4>
               <div className='mb-5 w-100'>
                 <div className="py-3 d-flex flex-row w-100 justify-content-between align-items-center border-bottom border-1 border-dark">
-                  <p className="mt-0 w-50 d-flex align-items-start fw-medium text-start">Opening Balance:</p>
+                  <p className="mt-0 d-flex align-items-start fw-medium text-start">Opening Balance:</p>
                   <span className="w-50 d-flex justify-content-end">{formData.openning}</span>
                 </div>
                 <div className="py-3 d-flex flex-row w-100 justify-content-between align-items-center border-bottom border-1 border-dark">
-                  <p className="mt-0 w-50 d-flex align-items-start fw-medium text-start">Closing Balance:</p>
+                  <p className="mt-0 d-flex align-items-start fw-medium text-start">Closing Balance:</p>
                   <span className="w-50 d-flex justify-content-end">{formData.closing}</span>
                 </div>
                 <div className="py-3 d-flex flex-row w-100 justify-content-between align-items-center border-bottom border-1 border-dark">
-                  <p className="mt-0 w-50 d-flex align-items-start fw-medium text-start">Transfered Amount:</p>
+                  <p className="mt-0 d-flex align-items-start fw-medium text-start">Transfered Amount:</p>
                   <span className="w-50 d-flex justify-content-end">{formData.transfer}</span>
                 </div>
                 <div className="py-3 d-flex flex-row w-100 justify-content-between align-items-center border-bottom border-1 border-dark">
-                  <p className="mt-0 w-50 d-flex align-items-start fw-medium text-start">Adjusted Difference:</p>
+                  <p className="mt-0 d-flex align-items-start fw-medium text-start">Adjusted Difference:</p>
                   <span className="w-50 d-flex justify-content-end">{formData.adjust}</span>
                 </div>
                 <div className="py-3 d-flex flex-row w-100 justify-content-between align-items-center border-bottom border-1 border-dark">
-                  <p className="mt-0 w-50 d-flex align-items-start fw-medium text-start">Status:</p>
+                  <p className="mt-0 d-flex align-items-start fw-medium text-start">Status:</p>
                   <span className="w-50 d-flex justify-content-end text-end">{formData.status}</span>
                 </div>
               </div>
