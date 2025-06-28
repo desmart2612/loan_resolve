@@ -68,19 +68,19 @@ function App() {
       <main className='d-flex flex-column align-items-center '>
         <form className='my-5 p-4 rounded-4 shadow d-flex flex-column align-items-start bg-white text-dark gap-2' onSubmit={handleSubmit}>
           <div className='w-100'>
-            <label htmlFor="constituency" className='w-50 d-flex align-items-start fw-medium'>Constituency:</label>
+            <label htmlFor="constituency" className='d-flex align-items-start fw-medium'>Constituency:</label>
             <input className='form-control py-3 px-3' type="text" id="constituency" name="constituency" placeholder="Enter the constituency name" required />
           </div>
           <div className='w-100'>
-            <label htmlFor='openningBalance' className='w-50 d-flex align-items-start fw-medium'>Opening Balance:</label>
+            <label htmlFor='openningBalance' className='d-flex align-items-start fw-medium'>Opening Balance:</label>
             <input className='form-control py-3 px-3' type="number" id="openningBalance" name="openningBalance" placeholder="Enter the opening balance" required />
           </div>
           <div className='w-100'>
-            <label htmlFor='closingBalance' className='w-50 d-flex align-items-start fw-medium'>Closing Balance:</label>
+            <label htmlFor='closingBalance' className='d-flex align-items-start fw-medium'>Closing Balance:</label>
             <input className='form-control py-3 px-3' type="number" id="closingBalance" name="closingBalance" placeholder="Enter the closing balance" required />
           </div>
           <div className='w-100'>
-            <label htmlFor='transferToBank' className='w-50 d-flex align-items-start fw-medium'>Transfered Amount:</label>
+            <label htmlFor='transferToBank' className='d-flex align-items-start fw-medium'>Transfered Amount:</label>
             <input className='form-control py-3 px-3' type="number" id="transferToBank" name="transferToBank" placeholder="Enter the amount transfered the bank" required />
           </div>
           <div className='d-flex flex-row-reverse gap-4 mt-3 align-items-center justify-content-between w-100'>
