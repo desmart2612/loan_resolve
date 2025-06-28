@@ -23,6 +23,9 @@
     align-items: start !important;
     margin: 5px;
   }
+  form label{
+    width: 100%;
+  }
   .results-container{
     width: 80vw !important;
   }
@@ -39,7 +42,9 @@ form div{
   flex-direction: row;
   align-items: center;
 }
-
+form label{
+  width: 50%;
+}
 .results-container{
   width: 50vw;
 }
