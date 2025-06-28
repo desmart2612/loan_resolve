@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -13,15 +14,48 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media screen and (max-width: 768px) {
+  form{
+    width: 80vw !important;
+  }
+  form div{
+    flex-direction: column !important;
+    align-items: start !important;
+    margin: 5px;
+  }
+  .results-container{
+    width: 80vw !important;
+  }
+  
+}
+
+form{
+  width: 50vw;
+}
+form div{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.results-container{
+  width: 50vw;
+}
+
+.App-header {
+  background-color: #6c10f4;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 20px;
 }
 
 .App-link {
