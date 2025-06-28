@@ -88,7 +88,7 @@ function App() {
             {/* <Button label="Reset" /> */}
           </div>
         </form>
-        <h4>Results.</h4>
+        <h4 className='text-decoration-underline link-offset-2'>Results.</h4>
         <div className='d-flex flex-column align-items-center results-container'>
           {formData.constituency === "" ? <div className='w-100 fs-4 d-flex align-items-start'>No Results...</div> :
             <>
